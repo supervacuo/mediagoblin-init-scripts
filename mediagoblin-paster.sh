@@ -91,7 +91,7 @@ case "$1" in
             log_end_msg $PASTER_RESULT
         else
             # Failed because the PID file indicates it's running
-            log_action_msg "PID file $MG_PASTER_BIN already exists"
+            log_action_msg "PID file $MG_PASTER_PID_FILE already exists"
             log_end_msg 1
         fi
         ;;
